@@ -1,0 +1,12 @@
+[project]
+name = "ollama-decision-model-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ollama",
+]
+
+[project.scripts]
+ollama-decision-model = "main:main"
